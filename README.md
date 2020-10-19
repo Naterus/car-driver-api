@@ -97,3 +97,4 @@ The Play application responds: `{
    "contactNumber" : "0815558555u",
    "gender" : "Male"
    }`
+5. To search for driver pass in any of the query parameters e.g : `rating=4` , `onlineStatus=Online or Offline` , `username=joh` , `licencePlate=8bh437-dhhs`
