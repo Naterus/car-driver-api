@@ -42,7 +42,7 @@ The Play application responds: `{
    "email" : "johndoe1@example.com"
    }`. the response should contain  the authorization token. ensure you copy it.
 
-2. Attach the generated token as a header parameter with the key :  authorization and value : <your-token> across all request (Preferably use postman to test). 
+2. Attach the generated token as a header authorization key across all requests (Preferably use postman to test). 
 
 ## Test with swagger
 1. Swagger interface is integrated in the project. once the project runs successfully, you can access swagger-ui from the URL : <http://localhost:9000/docs/swagger-ui/index.html?url=/assets/swagger.json#/> 
