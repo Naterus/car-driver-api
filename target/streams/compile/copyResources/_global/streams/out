@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/routes,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/swagger.yml,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/swagger.yml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/logback.xml,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/application.conf,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/evolutions/default/2.sql,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/evolutions/default/2.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/evolutions/default/1.sql,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/evolutions/default/1.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/nate/Documents/play-workspace/cars-and-drivers-service/conf/evolutions/default/3.sql,/home/nate/Documents/play-workspace/cars-and-drivers-service/target/scala-2.13/classes/evolutions/default/3.sql)[0m

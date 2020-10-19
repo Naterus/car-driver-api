@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/nate/Documents/play-workspace/cars-and-drivers-service/project/"), "cars-and-drivers-service-build")...
+[debug] Done updating ProjectRef(uri("file:/home/nate/Documents/play-workspace/cars-and-drivers-service/project/"), "cars-and-drivers-service-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

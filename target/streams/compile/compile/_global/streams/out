@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/home/nate/Documents/play-workspace/cars-and-drivers-service/app/controllers/CarController.java:54:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method setName(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable modelManufacturer of type models.Manufacturer[0m
+[0m[[0m[31merror[0m] [0m[0mmodelManufacturer.setName[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nate/Documents/play-workspace/cars-and-drivers-service/app/controllers/CarController.java:144:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method setName(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable modelManufacturer of type models.Manufacturer[0m
+[0m[[0m[31merror[0m] [0m[0mmodelManufacturer.setName[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nate/Documents/play-workspace/cars-and-drivers-service/app/controllers/CarController.java:147:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method setName(java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable modelManufacturer of type models.Manufacturer[0m
+[0m[[0m[31merror[0m] [0m[0mmodelManufacturer.setName[0m
+[0m[[0m[31merror[0m] [0m[0m/home/nate/Documents/play-workspace/cars-and-drivers-service/app/controllers/CarController.java:270:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method getName()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable manufacturer of type models.Manufacturer[0m
+[0m[[0m[31merror[0m] [0m[0mmanufacturer.getName[0m

@@ -1,0 +1,50 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#API V1 Route
+
+GET     /api/v1/cars                              controllers.CarController.getAllCars(request : Request)
+
+GET     /api/v1/cars/:id                          controllers.CarController.getCar(id: Long)
+
+POST     /api/v1/cars/create                      controllers.CarController.createCar(request : Request)
+
+PUT   /api/v1/cars/update/:id                     controllers.CarController.updateCar(request : Request,id: Long)
+
+DELETE     /api/v1/cars/delete/:id                 controllers.CarController.deleteCar(id: Long)
+
+GET     /api/v1/drivers                           controllers.DriverController.getAllDrivers
+
+GET     /api/v1/drivers/search                    controllers.DriverController.searchDrivers(username ?= null,onlineStatus ?= null,licencePlate ?= null,rating ?= null)
+
+GET     /api/v1/drivers/:id                           controllers.DriverController.getDriver(id : Long)
+
+POST    /api/v1/drivers/create                    controllers.DriverController.createDriver(request : Request)
+
+PUT   /api/v1/drivers/update/:id                  controllers.DriverController.updateDriver(request : Request,id: Long)
+
+GET  /api/v1/drivers/delete/:id                  controllers.DriverController.deleteDriver(id: Long)
+
+####
+#  parameters:
+#    - name: body
+#      schema:
+#         type: object
+#         properties
+#           id:
+#             type : integer
+###
+
+POST    /api/v1/drivers/select-car                  controllers.DriverController.selectCar(request : Request)
+
+POST    /api/v1/drivers/deselect-car                   controllers.DriverController.deselectCar(request : Request)
+
+POST     /api/v1/authorization/generate-key                     controllers.AuthorizationController.generateKey(request : Request)
+
+### NoDocs ###
+GET   /docs/swagger-ui/*file        controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)
+
+### NoDocs ###
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
