@@ -1,4 +1,4 @@
-# Backend REST API service implementation in Java to manage Cars and Drivers
+# Java Play Backend REST API service implementation to manage Cars and Drivers
 
 To run the car and drivers restful service, you will need the correct version of Java and a build tool. You can build Play projects with any Java build tool. Since sbt takes advantage of Play features such as auto-reload. 
 
@@ -28,9 +28,13 @@ To build and run the project:
 
 2. Build the project. Enter: `sbt run`. The project builds and starts the embedded HTTP server. Since this downloads libraries and dependencies, the amount of time required depends partly on your connection's speed.
 
-3. After the message `Server started, ...` displays, enter the following URL in a browser: <http://localhost:9000>
+3. After the message `Server started, ...` displays, enter the following URL in a browser: <http://localhost:9000/api/v1/cars>
 
-The Play application responds: `Welcome to the Hello World Tutorial!`
+The Play application responds: `{
+"statusCode": 401,
+"statusTitle": "unauthorized",
+"message": "Invalid/missing authorization key. Ensure you include valid authorization key in request header."
+}`
 
 ## Access Api endpoints
 1. Generate authorization token from the endpoint: <http://localhost:9000/api/v1/authorization/generate-key> - attach a raw json object to the request  e.g `{
