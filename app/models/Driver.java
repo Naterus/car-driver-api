@@ -36,7 +36,7 @@ public class Driver extends Model{
     private boolean deleted;
     private Date dateCreated = new Date();
     private Date dateModified = new Date();
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne()
     @Column(nullable = true)
     @JsonBackReference
     private Car carAssigned;

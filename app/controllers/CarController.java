@@ -191,8 +191,13 @@ public class CarController extends Controller {
         car.setDriver(driver);
         car.save();
 
-        //Check back
-        car.delete();
+        //Parent to child relationship not allowing deletion <Fix>
+        //Use JPA instead of ebean
+        try {
+            car.delete();
+        } catch (Exception e){
+            throw e;
+        }
 
         ResponsePayload responsePayload = new ResponsePayload();
         responsePayload.setStatusCode(200);
